@@ -1,0 +1,10 @@
+-c requirements-lock.txt
+
+fastapi
+uvicorn[standard]
+zstandard
+lxml
+Pillow
+jieba
+pycryptodomex
+tzdata

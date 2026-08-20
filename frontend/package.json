@@ -1,0 +1,42 @@
+{
+  "name": "wechat-db-web-panel-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "npm@10.9.8",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test --project=chromium-e2e"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.20",
+    "@tanstack/react-virtual": "^3.10.8",
+    "echarts": "6.1.0",
+    "echarts-for-react": "3.0.6",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "6.1.0",
+    "jsdom": "25.0.1",
+    "typescript": "^5.7.2",
+    "vite": "8.2.2",
+    "vitest": "4.1.11"
+  }
+}
