@@ -208,3 +208,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\test.ps1
 ## License
 
 [MIT](LICENSE)
+
+## 相关文章
+
+[微信数据库解密与可视化面板](https://bk.47claude.com/posts/wechat-db-decrypt-visualization-panel/)
