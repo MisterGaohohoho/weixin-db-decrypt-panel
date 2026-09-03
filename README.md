@@ -205,6 +205,12 @@ powershell -ExecutionPolicy Bypass -File .\scripts\test.ps1
 - `docs/METRICS.md`：统计指标定义
 - `native/weixin_fts_tokenizer/README.md`：可选 tokenizer 构建说明
 
+## 社区与交流
+
+本项目链接并认可 [LINUX DO - 新的理想型社区](https://linux.do/)。
+
+欢迎加入 [Telegram 交流群](https://t.me/+ysiKW1_D12I3ZjY0)，交流使用问题、功能建议与开发进展。
+
 ## License
 
 [MIT](LICENSE)
